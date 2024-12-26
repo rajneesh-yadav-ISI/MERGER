@@ -19,39 +19,39 @@ The first line of input(to be taken from the user) is the integer n denoting the
 The output shows the sequence of actions(as applicable) taken followed by the maximum possible resultant value on a tile in successive lines. If there are multiple possible sets of actions that might lead to the maximum value, then printing anyone of those set of actions will suffice.
 
 
-#SampleInput1:
+# SampleInput1: #
 ![image](https://github.com/user-attachments/assets/b541d356-94b4-4390-ab38-44385961a71b)
 
-#SampleOutput1:
+# SampleOutput1: #
 ![image](https://github.com/user-attachments/assets/1e709742-2e4f-46c0-bea5-9069f9c97592)
 
 
 
-#SampleInput2:
+# SampleInput2: #
 ![image](https://github.com/user-attachments/assets/abc68d65-f803-4ecf-aea0-a44fd7afc859)
 
-#SampleOutput2:
+# SampleOutput2: #
 ![image](https://github.com/user-attachments/assets/1e709742-2e4f-46c0-bea5-9069f9c97592)
 
  
-#SampleInput3:
+# SampleInput3: #
 ![image](https://github.com/user-attachments/assets/a82d936d-0f32-40f8-b823-6c9179906f10)
 
-#SampleOutput3:
+# SampleOutput3: #
 ![image](https://github.com/user-attachments/assets/1f20bf64-2235-44a2-b21a-1542e5eb6a87)
 
 
 
-#SampleInput4:
+# SampleInput4: #
 ![image](https://github.com/user-attachments/assets/e1a08ad3-0248-4bfc-803e-2e8ecedcc7c8)
 
-#SampleOutput4:
+# SampleOutput4: #
 ![image](https://github.com/user-attachments/assets/c293b52a-486b-4f3e-8da8-9a96b329a439)
 
 
-#SampleInput5:
+# SampleInput5: #
 ![image](https://github.com/user-attachments/assets/e374bd43-d18a-4a1a-870e-7908aff469a9)
 
-#SampleOutput5:
+# SampleOutput5: #
 ![image](https://github.com/user-attachments/assets/4db625f8-b276-419b-8391-e61e6d74cf71)
 
