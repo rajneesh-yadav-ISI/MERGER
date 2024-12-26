@@ -1,16 +1,13 @@
 # MERGER
 IT WAS A QUESTION GIVEN IN THE ASSIGNMENT TEST FOR FIRST SEM IN INDIAN STATISTICAL INSTITUTE KOLKATA
 
-Consider a tile game, say MERGER, in which an n ×n square grid is given with titles having numbers labeled (not necessarily) on them. The labeled numbers are mandatorily in the form of 2k (k = 1,...,16). The tiles on the grid can be pairwise merged. The allowed merging actions that can be applied on a pair of tiles are upward, downward, leftward and rightward movement of the tiles. The said actions force the labeled tiles to move toward one of the sides (as applicable) following the same order in which they appeared earlier. However, when a pair of tiles labeled with the same number touch (being neighbors), they merge into one with the added value labeled on the tile in the respective direction leaving the other one unlabeled. Merging of tiles can be done only in the direction the merging action has taken place. An instance of such actions is shown in Fig. 1. The purpose of this game is to obtain the maximum possible number on a tile by applying merging actions.
+Consider a tile game, say MERGER, in which an n ×n square grid is given with titles having numbers labeled (not necessarily) on them. The labeled numbers are mandatorily in the form of 2k (k = 1,...,16). The tiles on the grid can be pairwise merged. The allowed merging actions that can be applied on a pair of tiles are upward, downward, leftward and rightward movement of the tiles. The said actions force the labeled tiles to move toward one of the sides (as applicable) following the same order in which they appeared earlier. However, when a pair of tiles labeled with the same number touch (being neighbors), they merge into one with the added value labeled on the tile in the respective direction leaving the other one unlabeled. Merging of tiles can be done only in the direction the merging action has taken place. An instance of such actions is shown in Fig. 1. The purpose of this game is to obtain the maximum possible number on a tile by applying merging action
+
+  ![image](https://github.com/user-attachments/assets/dea2a3d5-2dff-4ac6-8e82-cd47840baa11)
 
 
- # |2 |  |  |  |          |8 |8 |  |16|          |  |  |  |32|
- # |  |8 |  |  |    -->   |  |4 |  |  |    -->   |  |  |  |4 |
- # |2 |4 |  |  |          |  |  |  |  |          |  |  |  |  |
- # |4 |  |  |16|          |  |  |  |  |          |  |  |  |  |
 
-
-Figure 1: The effect of an upward action followed by a rightward action that cause an upward movement of all the tiles and then rightward movement of all the tiles. (Upward) In the first column, when the pair of tiles labeled with 2 touch, they merge into one with 4 labeled on it.This further gets merged with the tile labeled with 4, finally merged into one with 8 labeled on it (Rightward) In the first row, when the pair of tiles labeled with 8 touch, they merge into one with 16 labeled on it. This further gets merged with the tile labeled with 16, finally merged into one with 32 labeled on it.
+Figure 1: The effect of an upward action followed by a rightwas.rd action that cause an upward movement of all the tiles and then rightward movement of all the tiles. (Upward) In the first column, when the pair of tiles labeled with 2 touch, they merge into one with 4 labeled on it.This further gets merged with the tile labeled with 4, finally merged into one with 8 labeled on it (Rightward) In the first row, when the pair of tiles labeled with 8 touch, they merge into one with 16 labeled on it. This further gets merged with the tile labeled with 16, finally merged into one with 32 labeled on it.
 
 
 Write a program to take a dimension of the grid and the initial set of labeled tiles and calculate the maximum possible value that one can get on any arbitrary tile after any arbitrary sequence of merging actions. Note that there can be multiple possible sequence of actions behind the maximum value obtained.
